@@ -280,6 +280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forceMagnitude: 850
   maxVelocity: 6
+  rotationSpeed: 5
   mainCamera: {fileID: 1687258584}
   rb: {fileID: 1422505997}
 --- !u!54 &1422505997
