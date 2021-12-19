@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -24,5 +25,10 @@ public class ScoreSystem : MonoBehaviour
         shouldCount = false;
         scoreText.text = string.Empty;
         return Mathf.FloorToInt(score);
+    }
+
+    internal void StartTimer()
+    {
+        shouldCount = true;
     }
 }
